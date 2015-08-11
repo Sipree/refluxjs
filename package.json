@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "eventemitter3": "^1.1.1",
-    "reflux-core": "^0.2.1"
+    "reflux-core": "git+https://github.com/darmou/reflux-core.git"
   },
   "devDependencies": {
     "benchmark": "^1.0.0",
