@@ -563,6 +563,9 @@ module.exports = {
             if (aborted) {
                 return;
             }
+            if (typeof callback === 'string') {
+                return;
+            }
             callback.apply(bindContext, args);
         },
             me = this,
